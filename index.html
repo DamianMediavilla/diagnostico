@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css">
+
+    <style>
+      html, body, pre, code, kbd, samp {
+        font-family: 'Press Start 2P', cursive;
+      }
+    </style>
+</head>
+<body>
+  <h1>Diagnóstico</h1>
+  <div  class="nes-container is-rounded with-title">
+    <p>Últimamente, no te has sentido del todo bien. Algunos síntomas te preocupan <br> Te diriges al hospital mas cercano a buscar atención médica</p>
+  </div>
+  <div id="dibujo">
+      <img id="character" src="img/char.gif" alt="">
+      
+      <img src="img/hospital.png" alt="">
+      
+  </div>
+  <div id="palabra"></div>
+  <!-- <div id="letra"><p>letra pa adivinar</p></div> -->
+  <p  id="pruebas" class="ocultar">--- Pruebas Incorrectas ---</p>
+  <div id="fallos"></div>
+  <div id="teclado"></div>
+  <div id="botones">
+    
+    <button id="comenzar_juego" class="nes-btn">Nuevo Diagnóstico</button>
+    <button id="listar_palabras" class="nes-btn">Listar palabras</button>
+    <!-- <button id="volver" class="nes-btn ">Volver al inicio</button> -->
+  </div>
+  <div id="edicion"></div>
+  <div id="fin_del_juego"></div>
+  
+  <footer>
+    <nav>
+      <a href="#"><i class="nes-icon github is-medium"></i></a>
+      <a href="#"><i class="nes-icon linkedin is-medium"></i></a>
+      <a href="#"><i class="nes-icon github is-medium"></i></a>
+    </nav>
+  </footer>
+    <span class="palabra_clave"></span>
+
+    
+</body>
+<script src="/js/palabras.js"></script>
+<script src="/js/app.js"></script>
+</html>
