@@ -1,16 +1,37 @@
 const pruebas_lang = {
-    "ES": "--- Pruebas Fallidas ---", "IT": "--- Prove Fallite ---", "EN": "---Falied Tests---"}
-alert(window.navigator.languages)
+    "ES": "--- Pruebas Fallidas ---", 
+    "IT": "--- Prove Fallite ---", 
+    "EN": "---Failed Tests---"
+}
+const titulo_lang = {
+    "ES": "Diagnostico", 
+    "IT": "Diannostico", 
+    "EN": "Diagnostic"
+}
+const tituloh1_lang = {
+    "ES": "Diagnóstico", 
+    "IT": "Diannostico", 
+    "EN": "Diagnostic"
+}
+const textointro_lang = {
+    "ES": "Últimamente, no te has sentido del todo bien. Algunos síntomas te preocupan <br> Te diriges al hospital mas cercano a buscar atención médica", 
+    "IT": "Non ti stai sintendo bene. Hai dei sintomi preocupanti. <br> Vai in ospedale a fare un controllo con il medico", 
+    "EN": "Recently, you are not feeling fine. You are a little bit worried <br> You went to a near hospital, to take some medical atention"
+}
+
+
+
+//alert(window.navigator.languages)
 switch (window.navigator.language){
     case "es-ES":
-        alert ("español")
+       // alert ("español")
         break;
     case "it-IT":
-        alert(pruebas_lang["IT"])
+        //alert(pruebas_lang["IT"])
 
         break;
     default:
-        alert ("no español")
+       // alert ("no español")
 }
 
 let palabras = ["BOTULISMO", "ERISIPELA", "RABIA", "TETANOS","SALMONELLA"]
