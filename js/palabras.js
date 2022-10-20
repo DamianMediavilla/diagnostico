@@ -1,3 +1,18 @@
+const pruebas_lang = {
+    "ES": "--- Pruebas Fallidas ---", "IT": "--- Prove Fallite ---", "EN": "---Falied Tests---"}
+alert(window.navigator.languages)
+switch (window.navigator.language){
+    case "es-ES":
+        alert ("español")
+        break;
+    case "it-IT":
+        alert(pruebas_lang["IT"])
+
+        break;
+    default:
+        alert ("no español")
+}
+
 let palabras = ["BOTULISMO", "ERISIPELA", "RABIA", "TETANOS","SALMONELLA"]
 let mensaje_win = [
     "Has identificado a tiempo tus síntomas, y enseguida lo relacionaste con algo que comiste. El <span class=\"palabra_clave\">BOTULISMO</span> alimentario se da por la ingestion de productos contaminados. Afortunadamente el tratamiento temprano te ha curado", 
