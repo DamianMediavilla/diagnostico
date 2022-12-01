@@ -18,6 +18,18 @@ const textointro_lang = {
     "IT": "Non ti stai sintendo bene. Hai dei sintomi preocupanti. <br> Vai in ospedale a fare un controllo con il medico", 
     "EN": "Recently, you are not feeling fine. You are a little bit worried <br> You went to a near hospital, to take some medical atention"
 }
+const win_text_lang = {
+    "ES": ["¡Lo lograste!", "Demasiado tarde ='("],
+    "IT": ["¡Bravo!", "Purtroppo è tarde ='("],
+    "EN": ["¡Success!", "Too late...  ='("]
+
+}
+const sintoma_text_lang = {
+    "ES": [" ¡Identificaste un sintoma! "," Tu estado empeora... "],
+    "IT": ["¡Hai trattato un sintoma!", "Stai peggiorando... "],
+    "EN": ["¡Symptom identified!", "It's getting worse...  ='("]
+}
+
 
 
 
